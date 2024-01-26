@@ -70,8 +70,8 @@ project "GLFW"
 
 	filter "configurations:Release"
 		runtime "Release"
-		optimize "on"
+		optimize "Speed"
 
 	filter "configurations:Dist"
 		runtime "Release"
-		optimize "on"
+		optimize "Speed"
