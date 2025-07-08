@@ -81,10 +81,10 @@ project "GLFW"
 		runtime "Debug"
 		symbols "on"
 
-	filter "configurations:Release"
+	filter "configurations:ReleaseWithDebug"
 		runtime "Release"
 		optimize "Speed"
 
-	filter "configurations:Dist"
+	filter "configurations:Release"
 		runtime "Release"
 		optimize "Speed"
